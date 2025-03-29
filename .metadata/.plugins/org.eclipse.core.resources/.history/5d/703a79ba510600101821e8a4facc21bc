@@ -1,0 +1,49 @@
+package exercicioUdemy;
+
+import java.sql.Date;
+
+public class Contrato {
+	private Date data;
+	private Double valorPorHora;
+	private int horaTrabalhada;
+	
+	
+	public Contrato() {
+	}
+
+
+	public Date getData() {
+		return data;
+	}
+
+
+	public void setData(Date data) {
+		this.data = data;
+	}
+
+
+	public Double getValorPorHora() {
+		return valorPorHora;
+	}
+
+
+	public void setValorPorHora(Double valorPorHora) {
+		this.valorPorHora = valorPorHora;
+	}
+
+
+	public int getHora() {
+		return hora;
+	}
+
+	
+	public void setHora(int hora) {
+		this.hora = hora;
+	}
+
+
+	public Double valorTotal() {
+		return hora*valorPorHora;
+	}
+	
+}

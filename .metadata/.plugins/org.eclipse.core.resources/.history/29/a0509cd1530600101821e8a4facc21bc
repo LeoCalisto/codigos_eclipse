@@ -1,0 +1,55 @@
+package exercicioUdemy;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class Funcionario {
+	private List <Contrato> contratos = new ArrayList<>();
+	private Departamento departamento;
+	private String nome;
+	private Level level;
+	private Double salario;
+	
+	
+	public Funcionario() {
+		
+	}
+	
+	public Departamento getDepartamento() {
+		return departamento;
+	}
+	public void setDepartamento(Departamento departamento) {
+		this.departamento = departamento;
+	}
+	public String getNome() {
+		return nome;
+	}
+	public void setNome(String nome) {
+		this.nome = nome;
+	}
+	public Level getLevel() {
+		return level;
+	}
+	public void setLevel(Level level) {
+		this.level = level;
+	}
+	public Double getSalario() {
+		return salario;
+	}
+	public void setSalario(Double salario) {
+		this.salario = salario;
+	}
+	
+	void addContrato(Contrato contrato) {
+		contratos.add(contrato);
+	}
+	
+	void removerContrato(Contrato contrato) {
+		contratos.remove(contrato);
+	}
+	
+	Double ganhoPorData(int ano, int mes) {
+		Double salarioFinal;
+		return 
+	}
+}

@@ -1,5 +1,3 @@
-package trabalhadorContrato;
-
 public class Departamento {
 	private String name;
 
@@ -14,4 +12,11 @@ public class Departamento {
 	public void setName(String name) {
 		this.name = name;
 	}
+
+	@Override
+	public String toString() {
+		return "Departamento [name=" + name + "]";
+	}
+
+	
 }

@@ -1,5 +1,3 @@
-package trabalhadorContrato;
-
 import java.util.Date;
 
 public class Contrato {

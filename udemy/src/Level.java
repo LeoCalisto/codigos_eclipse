@@ -1,4 +1,5 @@
-package trabalhadorContrato;
+
+
 
 public enum Level {
 	JUNIOR,
